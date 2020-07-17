@@ -1,0 +1,21 @@
+{
+  "name": "botpay",
+  "version": "1.0.0",
+  "description": "A telegram bot to handle transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keshav Mundhra <mundhrakeshav11@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "ethers": "^5.0.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24",
+    "node-telegram-bot-api": "^0.50.0",
+    "twilio": "^3.48.0",
+    "web3": "^1.2.9"
+  }
+}
